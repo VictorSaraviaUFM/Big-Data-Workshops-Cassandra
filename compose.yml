@@ -1,50 +1,47 @@
 # =============================================================================
-# Taller Apache Cassandra 5.0 - Big Data, UFM 2026 S2
-# Parte 2: un nodo por laptop. Esta laptop usa cassandra2 y no es la semilla.
+#  Taller Apache Cassandra 5.0 - Big Data, UFM 2026 S2
+#
+#  Parte 1: un solo nodo, con los nombres por defecto.
+#  Parte 2: queda solo el servicio del nodo que te toco en el cluster del grupo
+#  (cassandra1, cassandra2 o cassandra3), con el nombre de cluster y el
+#  datacenter de tu grupo.
+#
+#  Los datos viven en volumenes con nombre y sobreviven a "docker compose down".
 # =============================================================================
 name: taller-cassandra
 
 services:
-  # Servicio de esta laptop; cassandra1 se levanta primero en la laptop de Juan.
-  cassandra2:
-    # Imagen oficial usada tambien en la Parte 1.
+
+  # ---------------------------------------------------------------------------
+  # CASSANDRA1 -> desde tu maquina es localhost:9042 (protocolo CQL)
+  #
+  # En Cassandra no hay NameNode ni controller: todos los nodos son iguales.
+  # Cualquiera recibe una consulta y la reparte (es el "coordinador").
+  # ---------------------------------------------------------------------------
+  cassandra1:
     image: cassandra:5.0.8
-    # Nombre del contenedor para docker exec y docker logs.
-    container_name: cassandra2
-    # Nombre interno del nodo.
-    hostname: cassandra2
-    # Publica CQL y la comunicacion entre nodos.
+    container_name: cassandra1
+    hostname: cassandra1
     ports:
-      # Puerto local para cqlsh.
       - "9042:9042"
-      # Puerto local para gossip y trafico entre nodos.
-      - "7000:7000"
-    # Configuracion comun del cluster y de este nodo.
     environment:
-      # Limite de memoria de Java.
+      # Memoria de Java para este nodo. Las dos variables van juntas.
+      # MAX_HEAP_SIZE minimo: 256M.
       MAX_HEAP_SIZE: 512M
-      # Memoria de la generacion joven de Java.
       HEAP_NEWSIZE: 128M
-      # Los tres nodos deben compartir este nombre.
-      CASSANDRA_CLUSTER_NAME: UFM-G1
-      # Los tres nodos deben usar este datacenter.
-      CASSANDRA_DC: dc-g1
-      # Rack de este nodo.
-      CASSANDRA_RACK: rack1
-      # Snitch que usa el datacenter y rack declarados.
-      CASSANDRA_ENDPOINT_SNITCH: GossipingPropertyFileSnitch
-      # IP Tailscale de esta laptop; confirmar que siga activa antes de arrancar.
-      CASSANDRA_BROADCAST_ADDRESS: "100.127.202.84"
-      # IP Tailscale de Juan; verificar que aparezca como par antes de arrancar.
-      CASSANDRA_SEEDS: "100.78.221.21"
-    # Conserva los datos del nodo y monta los CSV en solo lectura.
     volumes:
-      # Volumen propio de cassandra2.
-      - cassandra2-data:/var/lib/cassandra
-      # Datos del repo disponibles dentro del contenedor.
+      - cassandra1-data:/var/lib/cassandra
+      # Los CSV del repo quedan dentro del contenedor en /data (solo lectura).
       - ./data:/data:ro
 
-# Volumen con nombre exclusivo de este nodo.
+  # ---------------------------------------------------------------------------
+  # Parte 2, Paso 5: este servicio pasa a ser el de tu nodo.
+  # ---------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# Volumenes con nombre: aqui viven los datos de cada nodo.
+#   docker compose down      -> los conserva
+#   docker compose down -v   -> LOS BORRA (solo para empezar de cero)
+# -----------------------------------------------------------------------------
 volumes:
-  # Sobrevive a docker compose down; down -v lo borra.
-  cassandra2-data:
+  cassandra1-data:
