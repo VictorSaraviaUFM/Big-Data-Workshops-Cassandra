@@ -1,0 +1,201 @@
+usuario_id,nombre,pais,plan
+u001,Lucía Reyes,San José,free
+u002,Paula Ramírez,Managua,free
+u003,Pablo Estrada,San Salvador,premium
+u004,Isabel Pérez,Tegucigalpa,free
+u005,Carlos Pérez,San José,familiar
+u006,Jorge Ramírez,San José,premium
+u007,Andrés Ortiz,San José,free
+u008,Sofía Juárez,San José,premium
+u009,Lucía Morales,Managua,familiar
+u010,Camila Méndez,San José,premium
+u011,Andrés Juárez,Guatemala,premium
+u012,Mateo López,San José,free
+u013,Javier Morales,Tegucigalpa,free
+u014,Jorge Reyes,Guatemala,premium
+u015,María García,San José,free
+u016,Valeria Pérez,San Salvador,premium
+u017,Jorge Estrada,San Salvador,premium
+u018,Paula Rivera,San Salvador,familiar
+u019,Paula López,Guatemala,free
+u020,Luis Reyes,Managua,familiar
+u021,Isabel Morales,Managua,familiar
+u022,Isabel Castillo,San Salvador,free
+u023,Javier Barrios,San Salvador,free
+u024,María Rivera,Tegucigalpa,premium
+u025,Sofía García,Managua,familiar
+u026,Jorge Barrios,Guatemala,free
+u027,Valeria Cruz,Guatemala,premium
+u028,María Méndez,San José,free
+u029,Mateo Morales,Managua,premium
+u030,Andrés Morales,Tegucigalpa,familiar
+u031,Carlos López,Guatemala,familiar
+u032,Daniela Barrios,Managua,free
+u033,Camila Flores,Tegucigalpa,premium
+u034,Lucía Cruz,Tegucigalpa,free
+u035,María Rivera,Tegucigalpa,familiar
+u036,Jorge Ortiz,San José,familiar
+u037,Luis Flores,Managua,free
+u038,Lucía Castillo,Guatemala,free
+u039,Camila Morales,Tegucigalpa,free
+u040,Isabel Ramírez,Tegucigalpa,familiar
+u041,Javier Ramírez,San Salvador,premium
+u042,Javier Cruz,Tegucigalpa,familiar
+u043,Pablo Méndez,San Salvador,premium
+u044,Lucía Barrios,Tegucigalpa,free
+u045,Andrés García,Managua,premium
+u046,Isabel Barrios,Guatemala,premium
+u047,Javier Ramírez,Guatemala,premium
+u048,Luis López,San José,premium
+u049,Valeria Castillo,San José,familiar
+u050,Luis García,Tegucigalpa,familiar
+u051,Diego Pérez,Managua,premium
+u052,Camila Pérez,San Salvador,premium
+u053,Mateo Morales,Tegucigalpa,free
+u054,Andrés Reyes,San Salvador,familiar
+u055,Javier Morales,San Salvador,familiar
+u056,Lucía Herrera,San Salvador,familiar
+u057,Lucía Barrios,San Salvador,free
+u058,Lucía Flores,Guatemala,familiar
+u059,Paula López,Tegucigalpa,familiar
+u060,María Estrada,San Salvador,free
+u061,Diego García,San José,familiar
+u062,Sofía Méndez,San José,free
+u063,Luis Morales,Tegucigalpa,familiar
+u064,Paula García,Guatemala,premium
+u065,Pablo Flores,San Salvador,familiar
+u066,Daniela Ortiz,San Salvador,familiar
+u067,Camila García,San Salvador,premium
+u068,Daniela Flores,San José,free
+u069,Lucía Juárez,San Salvador,familiar
+u070,Carlos Estrada,San José,premium
+u071,Lucía Méndez,Guatemala,free
+u072,Camila García,San Salvador,premium
+u073,Paula Méndez,Guatemala,premium
+u074,María Méndez,Managua,familiar
+u075,Jorge Barrios,Managua,premium
+u076,Luis Barrios,Tegucigalpa,free
+u077,Carlos López,Tegucigalpa,premium
+u078,Luis Ortiz,Guatemala,premium
+u079,Luis Flores,Guatemala,premium
+u080,María Estrada,San José,free
+u081,Carlos Juárez,San José,premium
+u082,Jorge Ramírez,Managua,premium
+u083,Daniela Castillo,San Salvador,familiar
+u084,Tomás Rivera,San Salvador,premium
+u085,Paula García,Guatemala,familiar
+u086,Diego López,San José,premium
+u087,Isabel Reyes,Managua,premium
+u088,María Reyes,San José,free
+u089,María Barrios,Guatemala,premium
+u090,Diego Estrada,Guatemala,familiar
+u091,Luis Barrios,Tegucigalpa,premium
+u092,Daniela Herrera,Guatemala,familiar
+u093,Andrés Juárez,San José,free
+u094,Luis Reyes,Managua,free
+u095,Ana Herrera,Tegucigalpa,familiar
+u096,Carlos Castillo,Managua,familiar
+u097,Pablo Flores,Managua,familiar
+u098,Sofía Ramírez,San Salvador,free
+u099,Javier Ramírez,San José,free
+u100,María Estrada,San José,premium
+u101,Carlos Castillo,San Salvador,free
+u102,Tomás Juárez,San José,free
+u103,Carlos Reyes,Guatemala,familiar
+u104,Valeria Herrera,Guatemala,free
+u105,Camila García,San Salvador,premium
+u106,Andrés Herrera,San José,free
+u107,Lucía Cruz,San Salvador,familiar
+u108,Camila Reyes,San José,premium
+u109,Andrés Rivera,Tegucigalpa,premium
+u110,Paula Juárez,San Salvador,familiar
+u111,María López,San José,free
+u112,Paula Juárez,San Salvador,premium
+u113,Lucía Barrios,San José,familiar
+u114,Lucía Castillo,Guatemala,free
+u115,Mateo Ortiz,Guatemala,premium
+u116,Carlos Castillo,Managua,familiar
+u117,Daniela García,Managua,premium
+u118,Sofía Herrera,San Salvador,familiar
+u119,Pablo López,San Salvador,free
+u120,Daniela Reyes,Managua,free
+u121,Paula Estrada,San Salvador,free
+u122,Jorge Herrera,Guatemala,premium
+u123,Isabel Flores,Tegucigalpa,premium
+u124,Camila Pérez,San José,familiar
+u125,Isabel Reyes,Guatemala,familiar
+u126,Jorge Estrada,Guatemala,free
+u127,Jorge Reyes,Managua,premium
+u128,Sofía García,Guatemala,premium
+u129,Daniela Rivera,San Salvador,premium
+u130,Lucía Herrera,Managua,free
+u131,María Rivera,Tegucigalpa,familiar
+u132,Diego Castillo,Tegucigalpa,familiar
+u133,Ana Herrera,Managua,premium
+u134,Camila Rivera,Tegucigalpa,familiar
+u135,Camila Castillo,San José,familiar
+u136,Paula Flores,San José,free
+u137,Ana Rivera,Tegucigalpa,free
+u138,Andrés Cruz,San Salvador,free
+u139,Pablo Pérez,Tegucigalpa,familiar
+u140,Valeria Castillo,Tegucigalpa,free
+u141,Andrés Flores,Guatemala,familiar
+u142,Ana Rivera,Managua,premium
+u143,Sofía Barrios,Tegucigalpa,free
+u144,Daniela Ortiz,San José,familiar
+u145,Camila Juárez,Guatemala,familiar
+u146,Diego Méndez,Tegucigalpa,familiar
+u147,Tomás Pérez,San José,free
+u148,María López,San Salvador,premium
+u149,Carlos Morales,Guatemala,familiar
+u150,Carlos Rivera,San Salvador,familiar
+u151,Daniela Barrios,Guatemala,free
+u152,Pablo Cruz,San Salvador,free
+u153,Lucía Méndez,Guatemala,familiar
+u154,Carlos Reyes,Managua,familiar
+u155,Luis Ortiz,Guatemala,familiar
+u156,Carlos Juárez,Managua,familiar
+u157,Luis Ramírez,San Salvador,free
+u158,Tomás Pérez,San José,free
+u159,Mateo Herrera,San José,familiar
+u160,Camila Pérez,Guatemala,familiar
+u161,Ana Juárez,San Salvador,familiar
+u162,Isabel Herrera,Tegucigalpa,familiar
+u163,Javier Barrios,Guatemala,free
+u164,Diego Barrios,San Salvador,free
+u165,Andrés García,Managua,familiar
+u166,Ana Castillo,Tegucigalpa,free
+u167,Camila Flores,San José,free
+u168,Diego García,San Salvador,familiar
+u169,Andrés Estrada,Managua,premium
+u170,Diego Reyes,Guatemala,free
+u171,Camila Rivera,San Salvador,free
+u172,Isabel Herrera,Tegucigalpa,familiar
+u173,Sofía López,Guatemala,free
+u174,Sofía Pérez,San Salvador,familiar
+u175,Daniela Rivera,Guatemala,familiar
+u176,Luis Castillo,Managua,free
+u177,Tomás Juárez,Tegucigalpa,free
+u178,Tomás Cruz,San Salvador,familiar
+u179,Camila Barrios,Managua,familiar
+u180,Andrés Cruz,Managua,free
+u181,Carlos Barrios,San José,familiar
+u182,Valeria García,Managua,familiar
+u183,Andrés Ramírez,Guatemala,free
+u184,Isabel Estrada,Tegucigalpa,familiar
+u185,Javier Rivera,Guatemala,premium
+u186,Valeria Reyes,Tegucigalpa,premium
+u187,Mateo Flores,San José,premium
+u188,Lucía Cruz,Guatemala,familiar
+u189,Carlos Cruz,San Salvador,free
+u190,Mateo Estrada,San Salvador,familiar
+u191,Camila Méndez,San Salvador,familiar
+u192,Luis López,Tegucigalpa,free
+u193,Mateo Morales,Tegucigalpa,free
+u194,Isabel López,Tegucigalpa,free
+u195,Javier Ortiz,Managua,familiar
+u196,Pablo Pérez,Managua,free
+u197,Pablo Castillo,Managua,familiar
+u198,Ana Herrera,San José,free
+u199,Andrés López,Tegucigalpa,premium
+u200,Valeria Estrada,Guatemala,free
